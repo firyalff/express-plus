@@ -1,0 +1,24 @@
+{
+	"production" : {
+		"csrf": false,
+		"xframe": "SAMEORIGIN",
+		"hsts": {
+			"maxAge": 31536000,
+			"includeSubDomains": true,
+			"preload": true
+		},
+		"xssProtection": true,
+		"nosniff": true
+	},
+	"development" : {
+		"csrf": false,
+		"xframe": "SAMEORIGIN",
+		"hsts": {
+			"maxAge": 31536000,
+			"includeSubDomains": true,
+			"preload": true
+		},
+		"xssProtection": true,
+		"nosniff": true
+	}
+}

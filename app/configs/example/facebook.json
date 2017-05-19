@@ -1,0 +1,21 @@
+{
+	"development": {
+		"name" : "fbappname",
+		"appId" : "appid",
+		"appSecret" : "apsecret",
+		"callbackURL" : "appcb"
+	},
+	"local-dev": {
+		"name" : "fbappname",
+		"appId" : "appid",
+		"appSecret" : "apsecret",
+		"callbackURL" : "appcb"
+	},
+	"production": {
+		"name" : "fbappname",
+		"appId" : "appid",
+		"appSecret" : "apsecret",
+		"callbackURL" : "appcb"
+	}
+
+}

@@ -1,0 +1,16 @@
+{
+	"environment" : "development",
+
+	"development" : {
+		"port" : 9000,
+		"secret" : "yoursecret",
+	},
+	"local-dev" : {
+		"port" : 9000,
+		"secret" : "yoursecret",
+	},
+	"production" :{
+		"port" : 9000,
+		"secret" : "yoursecret",
+	}
+}

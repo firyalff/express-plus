@@ -1,0 +1,14 @@
+{
+	"environment" : "development",
+
+	"development" : {
+		"port" : 6500,
+		"secret" : "mengapaakubeginijangankaupertanyakan",
+		"hostURL" : "localhost"
+	},
+	"production" :{
+		"port" : 4500,
+		"secret" : "mengapaakubeginijangankaupertanyakan",
+		"hostURL" : "localhost"
+	}
+}

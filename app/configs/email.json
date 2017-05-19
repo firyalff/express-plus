@@ -1,0 +1,36 @@
+{
+	"development" : {
+		"credential" : {
+			"gmail": {
+				"service": "Gmail",
+				"auth": {
+					"XOAuth2": {
+						"user": "",
+						"clientId": "",
+						"clientSecret": "",
+						"refreshToken": ""
+					}
+				}
+			},
+			"alias" : "aliasname <your@email.com>"
+		},
+		"addressBook" : {}
+	},
+	"production" : {
+		"credential" : {
+			"gmail": {
+				"service": "Gmail",
+				"auth": {
+					"XOAuth2": {
+						"user": "",
+						"clientId": "",
+						"clientSecret": "",
+						"refreshToken": ""
+					}
+				}
+			},
+			"alias" : "aliasname <your@email.com>"
+		},
+		"addressBook" : {}
+	}
+}

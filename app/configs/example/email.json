@@ -1,0 +1,59 @@
+{
+	"development" : {
+		"credential" : {
+			"gmail": {
+				"service": "Gmail",
+				"auth": {
+					"XOAuth2": {
+						"user": "mail@mail.com", 
+						"clientId": "clientid",
+						"clientSecret": "secret",
+						"refreshToken": "refresh"
+					}
+				}
+			},
+			"alias" : "noreply@developer.com"
+		},
+		"addressBook" : {
+			"orders": "mail@mail.com"
+		}
+	},
+	"local-dev" : {
+		"credential" : {
+			"gmail": {
+				"service": "Gmail",
+				"auth": {
+					"XOAuth2": {
+						"user": "mail@mail.com", 
+						"clientId": "clientid",
+						"clientSecret": "secret",
+						"refreshToken": "refresh"
+					}
+				}
+			},
+			"alias" : "noreply@developer.com"
+		},
+		"addressBook" : {
+			"orders": "mail@mail.com"
+		}
+	},
+	"production" : {
+		"credential" : {
+			"gmail": {
+				"service": "Gmail",
+				"auth": {
+					"XOAuth2": {
+						"user": "mail@mail.com", 
+						"clientId": "clientid",
+						"clientSecret": "secret",
+						"refreshToken": "refresh"
+					}
+				}
+			},
+			"alias" : "noreply@developer.com"
+		},
+		"addressBook" : {
+			"orders": "order@limakilo.id"
+		}
+	}
+}

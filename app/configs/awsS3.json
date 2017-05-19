@@ -1,0 +1,16 @@
+{
+	"development" : {
+		"accessKeyId": "",
+		"secretAccessKey": "",
+		"region": "",
+		"bucket": "",
+		"cloudfront" : ""
+	},
+	"production" : {
+		"accessKeyId": "",
+		"secretAccessKey": "",
+		"region": "",
+		"bucket": "",
+		"cloudfront" : ""
+	}
+}

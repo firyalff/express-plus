@@ -1,0 +1,23 @@
+{
+	"development" : { 
+		"accessKeyId": "youraccesskey", 
+		"secretAccessKey": "yoursecret", 
+		"region": "regionname",
+		"bucket": "bucketname",
+		"cloudfront" : "http://s3-regionname.amazonaws.com/"
+	}, 
+	"production" : { 
+		"accessKeyId": "youraccesskey", 
+		"secretAccessKey": "yoursecret", 
+		"region": "regionname",
+		"bucket": "bucketname",
+		"cloudfront" : "http://s3-regionname.amazonaws.com/"
+	},
+	"local-dev": {
+		"accessKeyId": "youraccesskey", 
+		"secretAccessKey": "yoursecret", 
+		"region": "regionname",
+		"bucket": "bucketname",
+		"cloudfront" : "http://s3-regionname.amazonaws.com/"
+	}
+}

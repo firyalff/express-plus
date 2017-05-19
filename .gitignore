@@ -1,0 +1,4 @@
+/node_modules
+/resource/public/upload/*
+/resource/log/*
+newrelic_agent.log

@@ -1,0 +1,17 @@
+{
+	"development": {
+		"title" : "title",
+		"description" : "desc",
+		"keyword" : "keyword"
+	},
+	"local-dev": {
+		"title" : "title",
+		"description" : "desc",
+		"keyword" : "keyword"
+	},
+	"production": {
+		"title" : "title",
+		"description" : "desc",
+		"keyword" : "keyword"
+	}
+}

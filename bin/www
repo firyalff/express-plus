@@ -1,0 +1,19 @@
+const appConfig = require('./../app/configs/'+ ( process.env.NODE_ENV==='local-dev' ? 'local-dev/' : '' ) +'app')
+, env = process.env.NODE_ENV || appConfig.environment;
+
+process.env.NODE_ENV = (env === 'production' || env === 'development' || env === 'local-dev')?env:'local-dev';
+
+//const newrelic = require('newrelic')
+const app = require('../app')
+, http = require('http')
+, models = require("./../app/models");
+
+app.set('port', appConfig[process.env.NODE_ENV].port);
+
+const server = http.createServer(app);
+
+models.sequelize.sync().then( () => {
+    server.listen(appConfig[process.env.NODE_ENV].port, () => {
+    	console.log(`API listening at port ${appConfig[process.env.NODE_ENV].port}`);
+    });
+});

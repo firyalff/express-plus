@@ -1,0 +1,30 @@
+{
+	"development": {
+		"MySQL" :{
+			"username": "root",
+			"password": "",
+			"database": "dbname",
+			"host": "127.0.0.1",
+			"dialect": "mysql",
+			"logging": false
+		},
+		"MongoDB" :{
+			"url" : "mongodb://localhost:27017/database"
+		},
+		"usage" : "MySQL"
+	},
+	"production": {
+		"MySQL" :{
+			"username": "root",
+			"password": "",
+			"database": "dbname",
+			"host": "127.0.0.1",
+			"dialect": "mysql",
+			"logging": false
+		},
+		"MongoDB" :{
+			"url" : "mongodb://localhost:27017/database"
+		},
+		"usage" : "MySQL"
+	}
+}

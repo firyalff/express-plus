@@ -1,0 +1,16 @@
+{
+	"development" : {
+		"app_name": [""],
+		"license_key": "",
+		"logging": {
+			"level": "info"
+		}
+	},
+	"production" : {
+		"app_name": [""],
+		"license_key": "",
+		"logging": {
+			"level": "info"
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"development": {
+		"MySQL" :{
+			"username": "dbusr",
+			"password": "dbpwd",
+			"database": "dbname",
+			"host": "127.0.0.1",
+			"dialect": "mysql",
+			"logging": false
+		},
+		"MongoDB" :{
+			"url" : "mongodb://localhost:27017/database"
+		},
+		"usage" : "MySQL"
+	},
+	"local-dev": {
+		"MySQL" :{
+			"username": "dbusr",
+			"password": "dbpwd",
+			"database": "dbname",
+			"host": "127.0.0.1",
+			"dialect": "mysql",
+			"logging": false
+		},
+		"MongoDB" :{
+			"url" : "mongodb://localhost:27017/database"
+		},
+		"usage" : "MySQL"
+	},
+	"production": {
+		"MySQL" :{
+			"username": "dbusr",
+			"password": "dbpwd",
+			"database": "dbname",
+			"host": "127.0.0.1",
+			"dialect": "mysql",
+			"logging": false
+		},
+		"MongoDB" :{
+			"url" : "mongodb://localhost:27017/database"
+		},
+		"usage" : "MySQL"
+	}
+}
